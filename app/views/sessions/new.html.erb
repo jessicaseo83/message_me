@@ -26,9 +26,7 @@ Welcome to MessageMe - a complete Chat App</h2>
       <% end %>
     </div>
     <div class="middle aligned column">
-      <div class="ui big orange disabled button">
-        <i class="signup icon"></i>
-        Sign Up
+      <%= link_to "Sign Up" '<i class="signup icon" style="margin-left: 0.5em"></i>'.html_safe, signup_path, class: "ui big orange button" %>
       </div>
     </div>
   </div>
