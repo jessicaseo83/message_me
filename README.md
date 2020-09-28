@@ -1,24 +1,19 @@
-# README
+# message_me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Message_me is a real time message app built with rails 5.2
 
-Things you may want to cover:
+## Screenshots
+!["Log in page"](https://github.com/jessicaseo83/message_me/blob/master/docs/login.png?raw=true)
+!["Chatroom"](https://github.com/jessicaseo83/message_me/blob/master/docs/logged_in_chatroom.png?raw=true)
+!["Logged out"](https://github.com/jessicaseo83/message_me/blob/master/docs/logged_out.png?raw=true)
 
-* Ruby version
+## Setup
 
-* System dependencies
+1. Run `bundle install` to install dependencies
+2. Run `bin/rake db:reset` to create, load and seed db
+3. Run `rails s` or `bin/rails s -b 0.0.0.0` to start the server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Dependencies
+* Ruby 2.3.5
+* Rails 5.2.4
+* Sementic UI
